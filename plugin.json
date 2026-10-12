@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Run your UK rental portfolio from a conversation: rent, certificates, repairs, expenses, the PRS landlord register and tenant onboarding, through your PAM account.",
   "author": {
-    "name": "Let Safe Limited (PAM \u2014 Property AI Manager)",
+    "name": "Let Safe Limited (PAM — Property AI Manager)",
     "email": "hello@propertyaimanager.com",
     "url": "https://www.propertyaimanager.com"
   },
@@ -21,8 +21,8 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "PAM \u2014 Property AI Manager",
-        "shortDescription": "Your UK rental portfolio, managed from a conversation.",
+        "displayName": "PAM — Property AI Manager",
+        "shortDescription": "Your rentals, from a chat.",
         "longDescription": "PAM is the property operating system for UK landlords. Connect your PAM account and ask about rent, Direct Debits, gas safety, EICR and EPC certificates, open repairs and the PRS landlord register; log maintenance jobs and expenses; find contractors; and run a tenant onboarding from first contact to keys. Actions that contact people or spend money always ask you first.",
         "developerName": "Let Safe Limited",
         "category": "Productivity",
@@ -32,7 +32,8 @@
         "defaultPrompt": "Which of my certificates expire in the next 90 days?",
         "brandColor": "#6c63d4",
         "logo": "./assets/logo.png",
-        "composerIcon": "./assets/icon.png"
+        "composerIcon": "./assets/icon.png",
+        "supportURL": "https://www.propertyaimanager.com/support"
       }
     }
   },
