@@ -18,5 +18,8 @@
     "uk"
   ],
   "repository": "https://github.com/callum-coder/PAM-Plugin",
-  "privacyPolicyUrl": "https://www.propertyaimanager.com/privacy"
+  "privacyPolicyUrl": "https://www.propertyaimanager.com/privacy",
+  "supportUrl": "https://www.propertyaimanager.com/support",
+  "documentationUrl": "https://www.propertyaimanager.com/connect-ai",
+  "termsOfServiceUrl": "https://www.propertyaimanager.com/terms"
 }
