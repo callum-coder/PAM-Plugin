@@ -25,7 +25,3 @@ Three skills teach the assistant PAM's workflows: reading your portfolio, loggin
 ## Data
 
 The connector sends your questions and the details you give (property references, amounts, dates, applicant names and mobiles) to your own PAM account at app.propertyaimanager.com, and returns what PAM holds about your properties. Nothing is stored by the plugin itself. You can disconnect at any time from PAM → Settings → Integrations → Claude & ChatGPT. Privacy policy: https://www.propertyaimanager.com/privacy
-
-## Assets
-
-`assets/logo.png` (1024×1024) and `assets/icon.png` (256×256) are rendered from the PAM crosshair mark with resvg; `*-dark.png` are ghost-tile variants for dark surfaces. Re-render rather than editing the PNGs.
