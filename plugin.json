@@ -41,45 +41,31 @@
             {
               "description": "Portfolio read: certificates expiring soon across the reviewer's properties.",
               "prompt": "Which of my certificates expire in the next 90 days?",
-              "tools_triggered": [
-                "list_properties",
-                "get_compliance"
-              ],
+              "tools_triggered": "list_properties, get_compliance",
               "expected_behavior": "Calls list_properties, then get_compliance for each property, and lists the certificates (type, property, expiry date) expiring within 90 days. No confirmation is needed; nothing is changed."
             },
             {
               "description": "Rent position across the portfolio.",
               "prompt": "What's the rent position on my properties this month?",
-              "tools_triggered": [
-                "list_properties",
-                "get_rent"
-              ],
+              "tools_triggered": "list_properties, get_rent",
               "expected_behavior": "Calls list_properties then get_rent and summarises monthly rent, due day, Direct Debit status and recent payments per property in prose, without raw JSON."
             },
             {
               "description": "Log a repair the landlord will handle themselves (no contact with anyone).",
               "prompt": "Log a repair at my first property: the kitchen tap is dripping, standard urgency. I'll sort it myself.",
-              "tools_triggered": [
-                "list_properties",
-                "create_job"
-              ],
+              "tools_triggered": "list_properties, create_job",
               "expected_behavior": "Resolves the property, calls create_job with let_pam_handle=false (no confirmation required for that path), and reports the job reference. PAM must not ring contractors."
             },
             {
               "description": "Book an expense for tax records.",
               "prompt": "I paid £120 for a gas safety check at my first property yesterday. Book it as an expense.",
-              "tools_triggered": [
-                "list_properties",
-                "book_expense"
-              ],
+              "tools_triggered": "list_properties, book_expense",
               "expected_behavior": "Calls book_expense with amount 120, category repairs_maintenance or professional_fees, yesterday's date and the property, then confirms what was recorded."
             },
             {
               "description": "Open tenant onboardings and what PAM is waiting for.",
               "prompt": "Show me any tenant onboardings in progress and what PAM needs from me.",
-              "tools_triggered": [
-                "list_onboarding_cases"
-              ],
+              "tools_triggered": "list_onboarding_cases",
               "expected_behavior": "Calls list_onboarding_cases and summarises each open case: property, applicants, stage and the next thing PAM is waiting for. Does not call any decision tool."
             }
           ],
