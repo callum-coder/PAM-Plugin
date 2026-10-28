@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "PAM \u2014 Property AI Manager: run your UK rental portfolio from Claude.",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "plugins": [
     {
       "name": "pam-property-ai-manager",
       "source": "./",
       "description": "Run your UK rental portfolio from a conversation: rent, certificates, repairs, expenses, the PRS landlord register and tenant onboarding, through your PAM account.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Let Safe Limited (PAM \u2014 Property AI Manager)",
         "url": "https://www.propertyaimanager.com"

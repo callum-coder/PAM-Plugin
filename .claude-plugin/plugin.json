@@ -1,7 +1,7 @@
 {
   "name": "pam-property-ai-manager",
   "displayName": "PAM \u2014 Property AI Manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Run your UK rental portfolio from a conversation: rent, certificates, repairs, expenses, the PRS landlord register and tenant onboarding, through your PAM account.",
   "author": {
     "name": "Let Safe Limited (PAM \u2014 Property AI Manager)",

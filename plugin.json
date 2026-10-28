@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "pam-property-ai-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Run your UK rental portfolio from a conversation: rent, certificates, repairs, expenses, the PRS landlord register and tenant onboarding, through your PAM account.",
   "author": {
     "name": "Let Safe Limited (PAM — Property AI Manager)",
